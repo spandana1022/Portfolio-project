@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spandana Macharla</title>
+    <link rel="stylesheet" href="styles.css">
+                             <!-- title icon -->
+    <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"/>
+            <!-- fonts -->
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Nosifer&display=swap" rel="stylesheet">
+     <!-- fontawesome icons -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  </head>
+  <body>
+                                      <!-- Header-->
+
+    <section class="Intro-section" id="Home">
+    <img class="logo-img" src="images/logo.jpg" alt="logo-img">
+    <nav class="navbar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a  href="#Portfolio">Portfolio</a></li>
+            <li><a href="#footer">Contact</a><li>
+          </ul>
+        </nav>
+      </header>
+
+
+      <div class="Intro-container" >
+      <h1 class="intro">Hi !</h1>
+      <h1 class="intro">I'm <span style="color:#ff2e63;">Spandana Macharla</span></h1>
+      <h4 class="intro">A front End Developer</h4>
+      <!-- <button class="Intro-button" type="button">Contact Me</button> -->
+      </div>
+    </section>
+
+                                         <!-- About Me-->
+
+    <section class="About-section" id="About">
+      <div>
+      <h1 class="main-heading">About Me</h1>
+      <img class="My-img" src="images/pic.jpg" alt="Myimage">
+      <p class="About-me">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galleyoftype and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960sw ith the release of
+       Letraset sheets containing Lorem Ipsum passages, and more recently with desktop  publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will
+      be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English.</p>
+  </div>
+</section>
+
+                                        <!--Services -->
+  <section class="Services-section" id="Services">
+    <div>
+    <h1 class="main-heading">What I Do</h1>
+    <div class="flex-container">
+    <div>
+      <img  class="img-1" src="images/webdesign.png" alt="webdesign-img">
+      <h2 class="text-heading">Webdesign</h2>
+      <p class="services-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
+    </div>
+
+    <div>
+    <img  class="img-1" src="images/webdevelopment1.jpg" alt="webdevelopment-img">
+      <h2 class="text-heading">Webdevelopment</h2>
+      <p class="services-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
+  </div>
+
+    <div>
+    <img  class="img-1" src="images/graphicdesign.jpg" alt="Graphicdesign-img">
+    <h2 class="text-heading">Graphicdesign</h2>
+    <p class="services-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.    software.</p>
+    </div>
+
+  </div>
+  </div>
+  </section>
+
+
+<!-- Portfolio-->
+
+<section class="portfolio-section" id="Portfolio">
+  <div>
+    <h1 class="main-heading">Portfolio</h1>
+    <p class="text-para">Here are a few projects that I have worked on.</p>
+    <div class="flex-container-1">
+    <div class="container">
+    <img class="project-img" src="images/Tindog.png">
+      <div class="overlay">
+     <div class="text">Tindog master</div>
+      </div>
+      </div>
+
+      <div class="container">
+      <img class="project-img" src="images/Diceegame.png">
+      <div class="overlay">
+     <div class="text">Dicee game</div>
+     </div>
+    </div>
+
+    <div class="container">
+      <img class="project-img" src="images/Drumkit.png">
+      <div class="overlay">
+     <div class="text">Drumkits</div>
+     </div>
+      </div>
+
+      <div class="container">
+    <img class="project-img" src="images/Simongame.png">
+      <div class="overlay">
+     <div class="text">Simongame</div>
+     </div>
+      </div>
+  </div>
+</div>
+ <p class="text-para" style="color:#ffffff;"><b>Get in touch!</b></p>
+<p class="text-para">want to get in touch or Interested to work in a project with me!</p>
+<p class="text-para">free feel to Contact.</p>
+  <button class="button" type="button">Contact Me</button>
+</section>
+
+                   <!--footer -->
+<footer id="footer">
+    <a href="#"><i class="social-icon fab fa-facebook"></i></a>
+    <a href="#"><i class="social-icon fab fa-twitter"></i></a>
+    <a href="#"><i class=" social-icon fab fa-instagram"></i></a>
+    <a href="#">  <i class=" social-icon far fa-envelope"></i></a>
+  <p class="copy-right">© 2021. Spandana Macharla</p>
+</footer>
+
+  </body>
+</html>
