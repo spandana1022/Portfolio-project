@@ -1,0 +1,196 @@
+
+                                                                     /* header logo */
+ .logo-img{
+width:100px;
+height:100px;
+padding: 10px 25px;
+z-index: -1;
+}
+.nav-item{padding:0 18px;}
+.nav-link{font: bold 1.2rem Montserrat;
+color: #f0f0f0;
+}
+.nav-link:hover{
+  color: #ED3B72; 
+  }                                                             
+.Contact-button{margin:3% 3% 5% 0;
+}
+                                                                     /* Intro section */
+.first-section{
+  background: url("images/bg.jpg.jfif")   no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  opacity: 0.7;
+  z-index: -1;
+}
+#Home{
+  text-align:left;
+}
+#Home .container-fluid{
+  padding: 3% 15% 7%;
+}
+.big-heading{
+font: bold 3.5rem Montserrat-black;
+line-height:1.5;
+color: #ffffff;
+  }
+.small-heading{
+  font:1.5rem  Montserrat-black;
+  line-height:1.5;
+  color: #ffffff;
+}
+        /* text animation */
+h1,h4{
+animation: move 3s;
+-webkit-animation: move 3s;
+}
+
+@keyframes move {
+from {
+margin-top: 50%;
+width: 300%;
+}
+
+to {
+margin-bottom:0%;
+width: 100%;
+}
+}
+                                                    /* headings */
+.main-heading{
+font-family: Montserrat-black;
+text-align: center;
+font-weight: bolder;
+font-size: 60px;
+padding: 100px 0px 30px;
+color: #41FACB;
+}
+     /* About section */
+
+.About-section{
+background-color:#1a1a2e;
+padding-bottom: 100px;
+}
+ .row-1{
+  color: #aeaeae;
+  text-align:left;
+  line-height: 1.3em;
+  font-size: 20px;
+  position: relative;
+  left:7%;
+}
+.About-text{
+  position: relative;
+  left:8%;
+  width:90%;
+  line-height: 1.5em;
+}
+ .My-img{
+width:300px;
+height: 320px;
+border-radius: 70%;
+}
+                                                     /* services section */
+
+.Services-section{
+background-color: #252a34;
+padding-bottom: 200px;
+}
+#Services{
+  padding:0px 100px  100px;
+}
+.Services-column{
+  padding:2% 3%;
+  text-align: left;
+}
+.img-1{
+width:100px;
+height: 100px;
+border-radius: 50%;
+position: relative;
+left: 30%;
+}
+.Service-header{font:bold 1.5rem;
+line-height: 1.5em;
+color: #eaeaea;
+text-align: center;
+}
+.text{
+  color: #a6a6a6;
+}
+
+
+                                                       /* portfolio section */
+.Portfolio-section{
+background-color: #1a1a2e;
+}
+.Portfolio-text{
+font: 20px Montserrat;
+letter-spacing: 0.1em;
+color: #eaeaea;
+text-align: center;
+}
+.flex-container-1{
+display: flex;
+padding-left:10px;
+}
+.flex-container-1 > div{
+margin:50px;
+width:250px;
+}
+.img-2{
+width:300px;
+height:350px;
+border: 1px solid #a6a6a6;
+}
+ .container {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  right:0;
+  background-color: #41FACB;
+  overflow: hidden;
+  width: 300px;
+  height:0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.overlay-text {
+ color: #ED3B72;
+ font-size: 20px;
+ font-weight:bolder;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+                                                  /* footer section */
+#footer{
+padding-bottom: 50px;
+background-color:#1b1717;
+}
+.copy-right{
+color:#aeaeae;
+font-size: 20px;
+padding: 15px 0px 5px 0px;
+margin:0px 0px;
+}
+.social-icon{
+margin:70px 20px 30px;
+display: inline;
+font-size: 25px;
+color: #aeaeae;
+}
+.social-icon:hover{color: #ffffff;
+}
